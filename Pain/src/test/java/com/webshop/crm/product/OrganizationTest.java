@@ -12,7 +12,11 @@ public void modifyOrgTest() {
 	System.out.println("OrganizationTest is modified");
 }
 @Test(groups = "SmokeTest")
-public void DeleteOrgTest() {
+public void deleteOrgTest() {
 	System.out.println("OrganizationTest is deleted");
+}
+@Test(groups = "SmokeTest")
+public void restoreOrgTest() {
+	System.out.println("OrganizationTest is restored");
 }
 }
